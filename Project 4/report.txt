@@ -1,0 +1,27 @@
+Anthony Humay
+304 731 856
+Project 4 Report
+March 9th, 2017
+
+MY MAP: associate()
+If the MyMap holds N items (keys and values), then associate() is O(log N) as it’s the same as adding something to a binary tree.
+
+MY MAP: find()
+If the MyMap holds N items (keys and values), then find() is O(log N) as it’s the same as finding something in a binary tree.
+
+ATTRACTION MAPPER: init()
+If the MapLoader holds N segments, then init() is O(N + A(log A)).
+
+ATTRACTION MAPPER: getGeoCoord()
+If the MyMap holds N items (keys and values), then getGeoCoord() is O(log N) as it’s the same as finding something in a binary tree.
+
+SEGMENT MAPPER: init()
+If there are N total street segments in the input mapping data, and A total attractions
+dispersed throughout the streets, then init() runs in O((N+A)*log(N+A)).
+
+SEGMENT MAPPER: getSegments()
+If there are N total street segments in the input mapping data, and A total attractions
+dispersed throughout the streets, getSegments() runs in O(log(2N+A)).
+
+NAVIGATOR: navigate()
+N total segments and A total attractions in our mapping data, our navigate() method runs in O((A+N)*log(A+N)) time.
